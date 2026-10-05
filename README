@@ -1,5 +1,7 @@
 sync Plugin for DokuWiki
 
+*Updated for PHP8-8.2 with very little testing - if it breaks you get to keep both pieces*
+
 All documentation for this plugin can be found at
 http://www.dokuwiki.org/plugin:sync
 
