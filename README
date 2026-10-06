@@ -1,6 +1,13 @@
 sync Plugin for DokuWiki
 
-*Updated for PHP8-8.2 with very little testing - if it breaks you get to keep both pieces*
+============================================================================================================================
+Updated for PHP8-8.2
+WARNING: my changes have had very little testing - if it breaks you get to keep both pieces
+Do not install this plugin as it will create confusion in the Dokuwiki Extension Manager
+To use: Install Andreas Gohr's dokuwiki-plugin-sync from https://github.com/splitbrain/dokuwiki-plugin-sync/zipball/master
+Then download admin.php from this repository and overwrite /lib/plugins/sync/admin.php
+Check the permission on admin.php after you've done that (usually www-data:www-data 644)
+============================================================================================================================
 
 All documentation for this plugin can be found at
 http://www.dokuwiki.org/plugin:sync
